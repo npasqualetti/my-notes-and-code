@@ -16,7 +16,9 @@ Split-The-Difference
         Visual Studio
 
 GIT
-Branches don't interfere with eachother. Parallel timelines. They all have aliases
+Branches don't interfere with eachother. Parallel timelines. They all have aliases.
+Fast forward merge are when a branch is ahead of master and you merge them onto the master.
+3-way-merge merges a branch into the master and retains all changes from both
     git config --global user.email "nicholaspasqualetti@gmail.com"
     git config --global user.name "Nicholas Pasqualetti"
     git add *.*
@@ -24,6 +26,6 @@ Branches don't interfere with eachother. Parallel timelines. They all have alias
     git remote -v
     git push origin
     git pull (admin approves the changes)
-    git log --online
+    git log --oneline
     git branch Test
     git checkout Test
