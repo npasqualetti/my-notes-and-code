@@ -1,0 +1,25 @@
+IDE - Integrated Developer Environment
+    Quick, Feature Rich
+        Visual Studio - mainly for .NET
+        NetBeans - mainly for JAVA
+        IntelliJ
+
+Simple Text Editor
+    Quick, Easy, Extensible, Tedious Config, Feature Poor
+        Notepad++
+        Sublime Text
+        VIM
+
+Split-The-Difference
+    Between IDE and Simple Text Editor
+        ATOM
+        Visual Studio
+
+GIT
+    git config --global user.email "nicholaspasqualetti@gmail.com"
+    git config --global user.name "Nicholas Pasqualetti"
+    git add *.*
+    git clone https://github.com/npasqualetti/portfolio.git (like git init, you will have an origin, all commits are commited individually)
+    git remote -v
+    git push
+    git pull
