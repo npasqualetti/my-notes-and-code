@@ -9,3 +9,4 @@ ctl + up/down arrow = scroll up/down
 ctl + shft + m = Select inside brackets
 ctl + shift + up/down arrow = move line
 ctl + shift + left/right arrow = select word
+ctl + e = change page

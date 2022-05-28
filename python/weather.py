@@ -1,6 +1,6 @@
 import requests, json, datetime, smtplib, ssl
 
-apiKey = "85e315a917302d57039e862b90b0afda"
+apiKey = ""
 lat = "41.1408"
 lon = "-73.2613"
 
@@ -25,8 +25,8 @@ date = datetime.datetime.now()
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
 sender_email = "nicksweathertracker@gmail.com"  # Enter your address
-receiver_email = "5132535814@vtext.com"  # Enter receiver address
-password = "Enter!@#"
+receiver_email = ""  # Enter receiver address
+password = ""
 message = """\
 Subject: Today's Weather: {}
 
