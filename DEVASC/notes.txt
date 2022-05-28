@@ -16,10 +16,14 @@ Split-The-Difference
         Visual Studio
 
 GIT
+Branches don't interfere with eachother. Parallel timelines. They all have aliases
     git config --global user.email "nicholaspasqualetti@gmail.com"
     git config --global user.name "Nicholas Pasqualetti"
     git add *.*
     git clone https://github.com/npasqualetti/portfolio.git (like git init, you will have an origin, all commits are commited individually)
     git remote -v
-    git push
-    git pull
+    git push origin
+    git pull (admin approves the changes)
+    git log --online
+    git branch Test
+    git checkout Test
