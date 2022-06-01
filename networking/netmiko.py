@@ -20,4 +20,5 @@ device_config = {
  “secret”: SECRET
 }
 
+# using **variable unpacks a python dictionary
 connection = ConnectHandler(**device_config)
