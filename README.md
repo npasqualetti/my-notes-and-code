@@ -1,6 +1,6 @@
 # Nicholas Pasqualetti's Notes and Code
 
-MIT Licensed notes and code.
+This is a repo of my notes and code.
 
 ## 1. GitHub Stats
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=npasqualetti&show_icons=true)
