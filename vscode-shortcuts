@@ -1,0 +1,12 @@
+ctl + l = select line
+ctl + / = comment out line
+ctl + d = select next occurence
+ctl + k = skip next occurence
+ctl + x = cut line
+ctl + enter = new line under
+ctl + right/left arrow = go next word
+ctl + up/down arrow = scroll up/down
+ctl + shft + m = Select inside brackets
+ctl + shift + up/down arrow = move line
+ctl + shift + left/right arrow = select word
+ctl + e = change page
