@@ -5,7 +5,7 @@ $Collection = Get-ADComputer -filter * -SearchBase "OU=Cincinnati,OU=Computer Gr
 $SamaccountName = $Collection.SamaccountName
 foreach ($item in $SamaccountName) {
   $item = $item -replace ".$"
-  if (Test-Path \\$item\C$\Temp\file.txt) {
+  if (Test-Path \\$item\C$\Temp\file.txt) { #check file.txt exist in domain under C:\Temp
     echo "File is here"
   }else{
     echo (Get-ADComputer -filter "Name -like '$item'" -Properties *).SamaccountName >> C:\Temp\file-check.txt
