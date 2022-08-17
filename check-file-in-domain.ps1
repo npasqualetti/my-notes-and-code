@@ -1,5 +1,6 @@
 #This code checks if a file exists in a computer group in AD. Great for checking if packages or files are copied to computers.
 #You need to download AD powershell tools
+#Run as domain admin
 $Collection = Get-ADComputer -filter * -SearchBase "OU=Cincinnati,OU=Computer Groups,DC=contosco,DC=com" | Select-Object SamaccountName
 $SamaccountName = $Collection.SamaccountName
 foreach ($item in $SamaccountName) {
